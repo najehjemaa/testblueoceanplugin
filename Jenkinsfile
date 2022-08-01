@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Build completed'
         retry(count: 3) {
-          sh 'wwwwwwwwwww'
+          sh ' echo "Hello World"'
         }
 
       }
